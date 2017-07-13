@@ -56,7 +56,7 @@
           <div class="row" ng-show='$ctrl.commentsOn($index)'>
             <div class="col-md-offset-1">
               <div ng-repeat='comment in post.comments'></div>
-              {{comment.content}} --<<span am-time-ago='comment.created_at'></span>
+              {{comment.content}} <span am-time-ago='comment.created_at'></span>
               <p>
                 Add Comment
               </p>
