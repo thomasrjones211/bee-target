@@ -5,3 +5,18 @@
 .image_holder {
   text-align: center;
 }
+
+body {
+  background-color: #f0ad4e
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+.navbar-brand {
+  font-size: 50px !important;
+  float:none;
+}
