@@ -22,21 +22,21 @@ exports.seed = function(knex, Promise) {
           text1,
           'The Bear',
           'http://www.kyforward.com/wp-content/uploads/2016/05/Black-Bear-1.jpg?h=350&auto=compress',
-          new Date(2017, 12, 17)
+          new Date(2017, 6, 16)
         ),
         createPost(
           'All Natural',
           text2,
           'Lipstick Lula',
           'https://fashionista.com/.image/t_share/MTIwOTI5Njk5NDA4MDQxODc0/image-title2.jpg?h=350&auto=compress',
-          new Date(2017, 11, 11)
+          new Date(2017, 6, 13)
         ),
         createPost(
           "Me next",
           text3,
           'Hot Thistle',
           'https://cdn2.hubspot.net/hubfs/2757166/Imported_Blog_Media/1280px-Honeybee_landing_on_milkthistle02-300x200.jpg?h=350&auto=compress',
-          new Date(2017, 5, 12)
+          new Date(2017, 6, 11)
         ),
       ])
     })
